@@ -1,7 +1,7 @@
 # Site settings
-title: DayStu Blog
-SEOTitle: 好好学习 | DayStu Blog
-header-img: img/home-bg.jpg
+title: DayStudy Blog
+SEOTitle: 好好学习 | DayStudy Blog
+#header-img: img/home-bg.jpg
 email: daystu@gmail.com
 description: ""
 keyword: ""
@@ -25,8 +25,8 @@ facebook_username:  daystu
 highlighter: rouge
 permalink: pretty
 paginate: 10
-# exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-# anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
@@ -80,21 +80,21 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Friends
-# friends: [
-    # {
-        # title: "Hux Blog",
-        # href: "http://huangxuan.me"
-    # },{
-        # title: "Foo",
-        # href: "#"
-    # },{
-        # title: "Bar",
-        # href: "#"
-    # },{
-        # title: "Example Friends",
-        # href: "#"
-    # },{
-        # title: "It helps SEO",
-        # href: "#"
-    # }
-# ]
+friends: [
+    {
+        title: "Hux Blog",
+        href: "http://huangxuan.me"
+    },{
+        title: "Foo",
+        href: "#"
+    },{
+        title: "Bar",
+        href: "#"
+    },{
+        title: "Example Friends",
+        href: "#"
+    },{
+        title: "It helps SEO",
+        href: "#"
+    }
+]
