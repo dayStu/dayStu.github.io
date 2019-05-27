@@ -11,7 +11,7 @@ baseurl: ""
 
 
 # SNS settings
-RSS: false
+RSS: true
 weibo_username:     daystu
 zhihu_username:     daystu
 github_username:    daystu
@@ -45,18 +45,18 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
-
+#评论 邮箱
 # Disqus settings
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+# duoshuo_username: huxblog
+# # Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
-
+#统计
 # Analytics settings
 # Baidu Analytics
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
@@ -65,11 +65,11 @@ ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # ga_domain: huangxuan.me
 
 
-
+#侧边栏 个人信息介绍
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+# sidebar: true                           # whether or not using Sidebar.
+# sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
+# sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
