@@ -1,6 +1,6 @@
 # Site settings
-title: DayStudy Blog
-SEOTitle: 好好学习 | DayStudy Blog
+title: Day Blog
+SEOTitle: 好好学习 | Day Blog
 header-img: img/home-bg.jpg
 email: daystu@gmail.com
 description: "这是一个测试"
@@ -67,8 +67,8 @@ ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 
 #侧边栏 个人信息介绍
 # Sidebar settings
-# sidebar: true                           # whether or not using Sidebar.
-# sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
 # sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
